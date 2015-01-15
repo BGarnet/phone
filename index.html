@@ -1,41 +1,9 @@
 <!DOCTYPE html>
 <html>
  <head>
-     <title> Phonegap Application</title>
-     <script type="text/Javascript" charset="utf-8" src="phongap.js"></script>
-     <script type="tesxt/Javascript">
-         var watchID = null;
-             document.addEventListener("deviceready", onDeviceReady, false);
-             function onDeviceReady() {
-                 startWatch();
-             }
-             function startWatch() {
-                 var options = {frequency: 3000};
-                 
-                 watchID = navigator.accelerometer.watchAcceleration(onSuccess,onError,options);
-             }
-             
-             function stopWatch() {
-                 if(watchID ){
-                     navigator.accelerometer.clearWatch(watchID);
-                     watchID = null;
-                 }
-             }
-             
-             function onSuccess(acceleration) {
-                 var element = document.getElementById('accelerometer')
-                 element.innerHTML ='Acceleration X: ' + acceleration.x + '<br /' +
-                                    'Acceleration Y: ' + acceleration.y + <'br /' +
-                                    'Acceleration Z: ' + acceleration.z + <'br /' +
-                                    'Timestamp: '      + acceleratino.timestamp+ '<br />'
-             }
-             
-             function onError() {
-                 alert('There was a problem');
-             }
- </script>
  </head>
  <body>
-     <div id="accelerometer">Waiting for accelerometer....</div>
+  <h1>This is my first app</h1>
+   <p>This is a Hello World App. So Hellp World</p>
  </body>
 </html>

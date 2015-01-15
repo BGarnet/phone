@@ -6,16 +6,16 @@
         id        = "com.garnet.test_	app"
         version   = "1.0.0">
 
-    <name>Accelerometer</name>
+    <name>Hello World</name>
 
     <description>
-        This is a copy accelerometer.
+        Hello World sample application that responds to the deviceready event.
     </description>
 
     <author href="http://phonegap.com" email="support@phonegap.com">
         Garnet
     </author>
-    <featurre name="http://api.phonegap.com/1.0/accelerometer"/>
+
     <!--
         If you do not want any permissions to be added to your app, add the
         following tag to your config.xml; you will still have the INTERNET
