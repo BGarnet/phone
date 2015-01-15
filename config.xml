@@ -6,10 +6,10 @@
         id        = "com.garnet.test_	app"
         version   = "1.0.0">
 
-    <name>Hello World</name>
+    <name>Accelerometer</name>
 
     <description>
-        Hello World sample application that responds to the deviceready event.
+        This is a copy accelerometer.
     </description>
 
     <author href="http://phonegap.com" email="support@phonegap.com">
